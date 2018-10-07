@@ -1,0 +1,14 @@
+.menu-background > ul {
+    list-style-type:none;
+}
+.menu-background > a {
+    color: #9370DB!IMPORTANT;
+    background: white!IMPORTANT;
+}
+
+.faq-content {
+    vertical-align:middle;
+    display: block;
+    margin: 0 auto;
+    width: 600px; 
+}
