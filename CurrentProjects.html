@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+        <title>Current Projects</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body>
+        <div class="topRight"><img src="Top Right Design.svg" alt="TopRightDesign"></div>
+            
+        <div class="bottomLeft"><img src="Bottom Left Design.svg" alt="BottomLeftDesign"></div>
+        <div class="w3-container">
+            
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Project CoCo Temp</button>
+          
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-teal"> 
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Project CoCo Temp</h2>
+                </header>
+                <div class="w3-container">
+                  <p>This is the project. This is the project. This is the project. This is the project. 
+                        This is the project. This is the project. This is the project. This is the project. 
+                  </p>
+                </div>
+                <footer class="w3-container w3-teal">
+                  <p>Team Members: John, Joe, Jason, Jeremy</p>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container">
+            
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Voting</button>
+              
+                <div id="id01" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4">
+                    <header class="w3-container w3-teal"> 
+                      <span onclick="document.getElementById('id01').style.display='none'" 
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h2>Voting</h2>
+                    </header>
+                    <div class="w3-container">
+                      <p>This is the project. This is the project. This is the project. This is the project. 
+                            This is the project. This is the project. This is the project. This is the project. 
+                      </p>
+                    </div>
+                    <footer class="w3-container w3-teal">
+                      <p>Team Members: John, Joe, Jason, Jeremy</p>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w3-container">
+            
+                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Other Project</button>
+                  
+                    <div id="id01" class="w3-modal">
+                      <div class="w3-modal-content w3-card-4">
+                        <header class="w3-container w3-teal"> 
+                          <span onclick="document.getElementById('id01').style.display='none'" 
+                          class="w3-button w3-display-topright">&times;</span>
+                          <h2>Other Project</h2>
+                        </header>
+                        <div class="w3-container">
+                          <p>This is the project. This is the project. This is the project. This is the project. 
+                                This is the project. This is the project. This is the project. This is the project. 
+                          </p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                          <p>Team Members: John, Joe, Jason, Jeremy</p>
+                        </footer>
+                      </div>
+                    </div>
+                </div>  
+
+          <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+          </script>
+    </body>
+
+    <style>
+        .topRight {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            z-index: -1;
+        }
+
+        .bottomLeft{
+            position: absolute;
+            bottom: 4px;
+            left: 4px;
+            z-index: -1; 
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .center {
+            width: 800px;
+        }
+    </style>
+</html>
+
+<!--
+<div class="container">
+            <div class="center">
+                CenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenter
+                CenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenter
+                CenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenterCenter
+            </div>
+        </div>
+
+<p style="text-align:center">
+            Hello
+        </p>
+
+    <head>
+            <title>Current Projects</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"/>
+    </head>
+    
+    <body>
+        <div class="topRight"><img src="Top Right Design.svg" alt="TopRightDesign"></div>
+        
+        <div id="root">
+            <button class="button" @click="showLoginModal=true">Show Modal</button>
+
+            <my-modal v-show="showLoginModal" @close='showLoginModal=false'>
+                Hello
+            </my-modal>
+        </div>
+        
+        <div class="bottomLeft"><img src="Bottom Left Design.svg" alt="BottomLeftDesign"></div>
+
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="Main.js"></script>
+    </body>
+-->
