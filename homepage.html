@@ -16,71 +16,94 @@
 
 <body>
 
+
+	<div id="small_logo">
+		<img src="Logo.svg" />
+		<img src="Humane Interface Design Enterprise.svg">
+	</div>
+
+	<img src="Top Right Design.svg" id="top_right">
+	<img src="Bottom Left Design.svg" id="bot_left">
+
 	<!-- All buttons on homepage-->
-	<div>
+	<nav>
 		<!-- Grouping for the top line of buttons -->
-		<div class="block_row1">
+		<ul id="block_row1">		
 
-		  <button class="button">
-		  	About Us
-		  	<div class="description">
-		  		<span>
-		  			For more information about the enterprise and its work
-		  		</span>
-		  	</div>
-		  </button>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button">
+			  	About Us
+			  	<div class="description">
+			  		<span>
+			  			For more information about the enterprise and its work
+			  		</span>
+			  	</div>
+			  </button>
+			</a>
 
-		  <button class="button">
-		  	Current Projects
-		  	<div class="description">
-		  		<span>
-		  			Details on what HIDE is working on right now
-		  		</span>
-		  	</div>
-		  </button>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button" onclick="Open_Tab('curr_proj')">
+			  	Current Projects
+			  	<div class="description">
+			  		<span>
+			  			Details on what HIDE is working on right now
+			  		</span>
+			  	</div>
+			  </button>
+			</a>
 
-		  <button class="button">
-		  	Past Projects
-		  	<div class="description">
-		  		<span>
-		  			The archive of projects HIDE has completed
-		  		</span>
-		  	</div>
-		  </button>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button" onclick="Open_Tab('pass_proj')">
+			  	Past Projects
+			  	<div class="description">
+			  		<span>
+			  			The archive of projects HIDE has completed
+			  		</span>
+			  	</div>
+			  </button>
+			</a>
 
-		  <button class="button">
-		  	Management
-	  		<div class="description">
-		  		<span>
-		  			Interested in HIDE? Find out how to contact us
-		  		</span>
-		  	</div>
-		  </button>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button" onclick="Open_Tab('mngmnt')">
+			  	Management
+		  		<div class="description">
+			  		<span>
+			  			Interested in HIDE? Find out how to contact us
+			  		</span>
+			  	</div>
+			  </button>
+			</a>
 
-		</div>
+		</ul>
 
 		<!-- Grouping for the bottom line of buttons -->
-		<div class="block_row2">
+		<ul id="block_row2">
 
-		  <button class="button">
-		  	How to Join
-		  	<div class="description">
-		  		<span>
-		  			Extra information to supplement curiosity
-		  		</span>
-		  	</div>
-		  </button>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button" onclick="Open_Tab('howToJoin')">
+			  	How to Join
+			  	<div class="description">
+			  		<span>
+			  			Extra information to supplement curiosity
+			  		</span>
+			  	</div>
+			  </button>
+			</a>
 
-		  <button class="button">
-		  	FAQ
-		  	<div class="description">
-		  		<span>
-		  			Meet the team tasked with leading the enterprise
-		  		</span>
-	  		</div>
-		  </button>
-		</div>
-	</div>
+			<a href="HIDE-Website-junyao-issue5\html\index.html">
+			  <button class="button" onclick="Open_Tab('faq')">
+			  	FAQ
+			  	<div class="description">
+			  		<span>
+			  			Meet the team tasked with leading the enterprise
+			  		</span>
+		  		</div>
+			  </button>
+			</a>
+
+		</ul>
+
+	</nav>
 	
 </body>
 </html>

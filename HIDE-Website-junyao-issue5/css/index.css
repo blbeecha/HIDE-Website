@@ -1,0 +1,107 @@
+/*not necessary free to delete it, this is for canvas next affect*/
+html {
+    height: 100%;
+    background: 
+        no-repeat
+        center
+        center
+        fixed;
+    overflow: auto;
+    background-image: url("../imgs/background.png");
+}
+
+body {
+    font-size: 2vw;
+}
+
+/* This defines the accoridon button */
+button.accordion {
+    width: 50%;
+    background-color: rgb(0, 42, 180);
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+}
+
+/* Actions taken when the button is hovered over */
+button.accordion:hover {
+    background-color: rgb(130, 41, 189);
+}
+
+/* The properties of the HTML inside the expanded text section of the accordion. */
+.accordion-content {
+    width: 50%;
+    padding: 0px 20px;
+    border-left: 2px solid rgb(130, 41, 189);
+    border-right: 2px solid rgb(130, 41, 189);
+    max-height: 0;
+    overflow: hidden;
+    
+    transition: width 0.2s ease-in-out;
+    transition: max-height 0.2s ease-in-out;   
+}
+
+.tab{
+    background-color:#25292c;
+    padding-top: 2%;
+    min-width: 800px; /* Minimum width of your wrapper element */
+    overflow: hidden;
+    display: flex;/*????*/ 
+    border-bottom:2px solid rgb(0,0,0);padding-bottom:1px; 
+    justify-content: center;
+}
+/*needed for hide and show*/
+.tab_content {
+	display: none;	
+    color: white; /*temp font color*/
+	position: fixed;
+    margin-left: 10%;
+    background: rgba(68,71,74,0.9);
+    padding: 10px;
+    width: 80%;
+    height:100%;
+    border-radius: 15px;
+}
+
+.tab_button {
+    color: #f8f8f8;
+    bottom: 0;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 5px 8px;
+    padding-bottom: 0px;
+    font-size: 1.5em
+}
+
+
+
+#hide_name {
+    color:#f8f8f8;
+}
+#top_corner_img {
+    position: relative;
+}
+#top_corner_img img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+#bottom_corner_img {
+    position: relative;
+}
+#bottom_corner_img img {
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    z-index: -3;
+}
