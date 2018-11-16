@@ -1,6 +1,7 @@
 body, html{
 	height: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
 a{
@@ -15,7 +16,6 @@ body{
 
 nav{
 	text-align: center;
-	margin-top: calc(15% + 100px);
 }
 
 nav ul{
@@ -31,13 +31,19 @@ nav ul li{
 nav ul li a{
 	display: block;
 	color: #000;
-	padding: 0 30px;
+}
+
+#block_row1{
+	margin-top: 275px;
+}
+
+#block_row2{
+	margin-top: 0;
 }
 
 .container{
 	text-align: center;
 	width: 100%;
-	margin: 110px auto;
 }
 
 
